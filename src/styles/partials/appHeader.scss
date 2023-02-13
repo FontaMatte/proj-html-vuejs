@@ -1,5 +1,38 @@
 header {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    background-color: lightcyan;
+
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+
+        .nav-bar {
+            display: flex;
+            
+            ul {
+                display: flex;
+                list-style: none;
+
+                li {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .header-bottom {
+        position: relative;
+
+        .aside-menu {
+            height: 70px;
+            background-color: blue;
+
+            position: absolute;
+            left: 0;
+            top: 50%;
+        }
+        .header-bottom-content {
+            text-align: center;
+            padding: 40px 0;
+        }
+    }
 }

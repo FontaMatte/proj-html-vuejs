@@ -1,5 +1,44 @@
 main {
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    
+    // SECTION 1
+    .section-1 {
+        position: relative;
+        background-color: green;
+
+        .background-image {
+            position: absolute;
+        }
+        .call-to-action-link {
+            position: absolute;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 0;
+        }
+    }
+    // SECTION 2
+    .section-2 {
+        background-color: yellowgreen;
+        padding: 30px 0;
+
+        .section-top {
+            text-align: center;
+        }
+        .section-bottom {
+
+            .card-container {
+                display: flex;
+                
+                .card {
+                    width: calc(100% / 5);
+                    height: 150px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
 }
