@@ -41,4 +41,137 @@ main {
             }
         }
     }
+    // SECTION 3
+    .section-3 {
+        background-color: violet;
+        padding: 30px 0;
+
+        .container {
+            display: flex;
+
+            .section-image {
+                width: 40%;
+            }
+            .section-text {
+                width: 60%;
+            }
+        }
+    }
+    // SECTION 4
+    .section-4 {
+        background-color: rosybrown;
+        padding: 30px 0;
+
+        .section-top {
+            text-align: center;
+        }
+    }
+    // SECTION 5
+    .section-5 {
+        background-color: chocolate;
+
+        .section-top {
+            text-align: center;
+        }
+        .section-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .card-container {
+                display: flex;
+                justify-content: space-between;
+
+                .card {
+                    width: calc(100% / 3 - 20px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+
+                    button {
+                        position: absolute;
+                        top: 90%;
+                    }
+                }
+            }
+            .view-all-button {
+                margin: 40px 0;
+            }
+        }
+    }
+    // SECTION 6
+    .section-6 {
+        background-color: antiquewhite;
+        padding: 30px 0;
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+
+            .card {
+                width: calc(100% / 4 - 20px);
+                padding: 30px;
+                position: relative;
+
+                button {
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+    // SECTION 7
+    .section-7 {
+        background-color: cadetblue;
+        padding: 30px 0;
+
+        .container {
+            display: flex;
+
+            .text-section {
+                width: 50%;
+            }
+            .img-section {
+                width: 50%;
+            }
+        }
+    }
+    // SECTION 7
+    .section-8 {
+        background-color: darkkhaki;
+        padding: 30px 0;
+
+        .container {
+            display: flex;
+
+            .text-section {
+                width: 50%;
+            }
+            .img-section {
+                width: 50%;
+            }
+        }
+    }
+    // SECTION 9
+    .section-9 {
+        background-color: chartreuse;
+        padding: 30px 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    // SECTION 10
+    .section-10 {
+        background-color: cornflowerblue;
+        padding: 30px 0;
+
+        .container {
+            text-align: center;
+        }
+    }
 }
