@@ -88,18 +88,17 @@ export default {
 
     <!-- SECTION 3 -->
     <section class="section-3">
-      <div class="container">
+      <div class="my-container">
         <div class="section-image">
-          <img src="" alt="">
-          IMG
+          <img class="img-fluid" src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="">
         </div>
         <div class="section-text">
-          <h3>
+          <h3 class="mb-5">
             Law Faculty
           </h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Quasi voluptates tempore cum ab odio reprehenderit nemo dolorem deleniti quod iste!
+          <p class="mb-5">
+            Learning from world-leading academics and practitioners, you'le not only receive an outstanding grounding in the theory of law, 
+            but you will be able to understand how those priciples are applied in practice through a range of student-led activities and competitions.
           </p>
           <button>Read More</button>
         </div>
@@ -108,17 +107,18 @@ export default {
 
     <!-- SECTION 4 -->
     <section class="section-4">
-      <div class="container">
+      <div class="my-container">
         <div class="section-top">
-          <img src="" alt="">
+          <div>
+            <img src="../assets/img/Clock-and-Bell.png" alt="">
+          </div>
           <h2>
             University Year
           </h2>
         </div>
+
         <div class="section-bottom">
-          <img class="background-image" src="" alt="">
-          <div class="on-image-text">
-            <div class="Text-1">
+            <div class="text-1">
               <h4>
                 Orentation
               </h4>
@@ -127,7 +127,7 @@ export default {
                 cerimony and then network with others.
               </p>
             </div>
-            <div class="Text-2">
+            <div class="text-2">
               <h4>
                 Demo Classe
               </h4>
@@ -136,7 +136,7 @@ export default {
                 their optional courses.
               </p>
             </div>
-            <div class="Text-3">
+            <div class="text-3">
               <h4>
                 Evaluation
               </h4>
@@ -144,7 +144,7 @@ export default {
                 At the end of a semester, student take a genmeral evaluation test for every subject they're learning.
               </p>
             </div>
-            <div class="Text-4">
+            <div class="text-4">
               <h4>
                 Graduation Day
               </h4>
@@ -152,7 +152,6 @@ export default {
                 On the day of graduation, all students gather for the ceremony and then network and party among others.
               </p>
             </div>
-          </div>
         </div>
       </div>
     </section>
