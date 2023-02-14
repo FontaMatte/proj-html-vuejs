@@ -329,7 +329,6 @@ export default {
         <p class="mb-4">
           EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our 
           student. Every teacher from our university has an influence on how students are evaluated at his/her subject.
-
         </p>
         <button>Discover the Method</button>
       </div>
@@ -341,19 +340,18 @@ export default {
 
   <!-- SECTION 8 -->
   <section class="section-8">
-    <div class="container">
+    <div class="my-container">
       <div class="img-section">
-        <img src="" alt="">
-        IMG
+        <img class="img-fluid" src="../assets/img/Girl-Illustration.png" alt="">
       </div>
       <div class="text-section">
-        <img src="" alt="">
-        <h2>
-          Variable fess fpr international students
+        <img src="../assets/img/Exam-icon-1.png" alt="">
+        <h2 class="mb-4">
+          Variable fess for international students
         </h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Quam aperiam provident cum omnis illo, distinctio natus dolorum autem eligendi eveniet.
+        <p class="mb-4">
+          EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our 
+          student. Every teacher from our university has an influence on how students are evaluated at his/her subject.
         </p>
         <button>List of fees</button>
       </div>    
@@ -362,32 +360,40 @@ export default {
 
   <!-- SECTION 9 -->
   <section class="section-9">
-    <div class="container">
-      <h2>Subscribe Now to Our Newsletter !</h2>
+    <div class="my-container">
+      <div>
+        <h2>Subscribe Now to Our Newsletter !</h2>
+      </div>
       <div class="email-input">
         <input type="email" placeholder="Email address....">
-        <button>GO</button>
+        <button>
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
       </div>
     </div>
   </section>
 
   <!-- SECTION 10 -->
   <section class="section-10">
-    <div class="container">
-      <h2>
+    <div class="my-container">
+      <h2 class="mb-4">
         Partners
       </h2>
-      <p>
-        Leverage agile frameworks to provide a robust synipsin for high level overviews.
-        Iterative approaches to corporate strategy.
-      </p>
+      <div class="my-container-small mb-5">
+        <p>
+          Leverage agile frameworks to provide a robust synipsin for high level overviews.
+          Iterative approaches to corporate strategy.
+        </p>
+      </div>
       <div class="img-container">
-        <img src="" alt="logo1">
-        <img src="" alt="logo2">
-        <img src="" alt="logo3">
-        <img src="" alt="logo4">
-        <img src="" alt="logo5">
-        <img src="" alt="logo6">
+        <img src="../assets/img/partner-2.png" alt="logo1">
+        <img src="../assets/img/partner-3.png" alt="logo2">
+        <img src="../assets/img/partner-4.png" alt="logo3">
+        <img src="../assets/img/partner-5.png" alt="logo4">
+        <img src="../assets/img/partner-6.png" alt="logo5">
+        <img src="../assets/img/partner-8.png" alt="logo6">
+        <img src="../assets/img/partner-1.png" alt="logo7">
+        <img src="../assets/img/partner-7.png" alt="logo8">
       </div>
     </div>
   </section>

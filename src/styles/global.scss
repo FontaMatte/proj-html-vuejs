@@ -25,6 +25,25 @@ button {
     background-color: #E9D758;
 }
 
+.email-input {
+    position: relative;
+
+    input {
+        width: 350px;
+        padding: 15px 20px;
+        border-radius: 30px;
+        border: none;      
+    }
+    button {
+        border-radius: 50px;
+        padding: 15px 20px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+}
+
 // COLORS
 // BACKGROUND COLORS
 $yellow-base:#E9D758;
