@@ -8,8 +8,10 @@ export default {
 
     };
   },
-  components: {
-
+  props: {
+    GetEduPrimeLinks : Array,
+    NetworkingLinks : Array,
+    SearchCategories : Array,
   }
 }
 </script>
@@ -37,9 +39,9 @@ export default {
           courses,secondaryschools etc.
         </p>
         <div class="social">
-          <i class="fa-brands fa-facebook me-2"></i>
-          <i class="fa-brands fa-twitter me-2"></i>
-          <i class="fa-brands fa-instagram"></i>
+          <a href=""><i class="fa-brands fa-facebook me-2"></i></a>
+          <a href=""><i class="fa-brands fa-twitter me-2"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
 
@@ -49,12 +51,11 @@ export default {
           Get EduPrime
         </h3>
         <ul>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
+          <li v-for="link in GetEduPrimeLinks">
+            <a href="#">
+              {{ link }}
+            </a>
+          </li>
         </ul>
       </div>
       
@@ -64,12 +65,11 @@ export default {
           Networking
         </h3>
         <ul>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
-          <li>Request a website</li>
+          <li v-for="link in NetworkingLinks">
+            <a href="#">
+              {{ link }}
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -85,13 +85,11 @@ export default {
           search categories
         </h6>
         <div class="categories mb-3">
-          <div>ECONOMY</div>
-          <div>DESIGN</div>
-          <div>COACHING</div>
-          <div>BUSINESS</div>
-          <div>MEDICINE</div>
-          <div>BUSINESS</div>
-          <div>MEDICINE</div>
+          <div v-for="link in SearchCategories">
+            <a href="">
+              {{ link }}
+            </a>
+          </div>
         </div>
         <span>
           ModelTheme. All rughts reserved.

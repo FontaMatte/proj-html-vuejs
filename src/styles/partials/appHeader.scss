@@ -45,9 +45,12 @@ header {
                         text-decoration: none;
                         color: white;
                     }
-                }
-                .selected {
-                    color:  #E9D758;
+                    .selected {
+                        color:  #E9D758;
+                    }
+                    &:hover a {
+                        color: #E9D758;
+                    }
                 }
             }
         }

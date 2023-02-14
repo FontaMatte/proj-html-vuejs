@@ -10,7 +10,7 @@ export default {
     };
   },
   props: {
-    navBarLinks: Array
+    navBarLinks: Object
   }
 }
 </script>
@@ -26,8 +26,9 @@ export default {
       <div class="nav-bar">
         <ul>
           <li v-for="link in navBarLinks">
-            <a href="#" :class="{ selected: isSelected }">
-              {{ link }}
+            <a href="#" :class="{ selected: link.isSelected }">
+              {{ link.link }} 
+              <i v-if="link.caretDown" class="fa-solid fa-caret-down ms-2"></i>
             </a>
           </li>
         </ul>

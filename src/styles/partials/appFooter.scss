@@ -37,10 +37,15 @@ footer {
             p {
                 font-size: 12px;
             }
-            i {
-                border: 1px solid #E9D758;
-                padding: 10px;
-                border-radius: 20px;
+            a {
+                i {
+                    border: 1px solid #E9D758;
+                    padding: 10px;
+                    border-radius: 20px;
+                }
+                &:hover i {
+                    color: #E9D758;
+                }
             }
         }
 
@@ -85,6 +90,15 @@ footer {
                     padding: 5px;
                     margin-left: 5px;
                     margin-bottom: 5px;
+                    text-transform: uppercase;
+                    
+                    &:hover {
+                        background-color: #E9D758;
+
+                        a {
+                            color: white;
+                        }
+                    }
                 }
             }
             span {
@@ -103,18 +117,14 @@ footer {
         padding: 10px;
         border-radius: 50%;
 
-        a {
-            color: white;
-        }
     }
     ul {
         list-style: none;
         padding-left: 0;
         font-size: 12px;
-        
-        
+            
         li {
             padding: 5px 0;
         }
-    }
+    }   
 }

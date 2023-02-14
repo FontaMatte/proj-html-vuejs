@@ -8,14 +8,67 @@ export default {
   data() {
     return {
       navBarLinks: [
-          'Home',
-          'Courses',
-          'About Us',
-          'News',
-          'Pages',
-          'Contact',
-          'Purchase'
+        {
+        link: 'Home',
+        isSelected: true,
+        caretDown: true
+        },
+        {
+        link: 'Courses',
+        isSelected: false,
+        caretDown: true
+        },
+        {
+        link: 'About Us',
+        isSelected: false,
+        caretDown: false
+        },
+        {
+        link: 'News',
+        isSelected: false,
+        caretDown: true
+        },
+        {
+        link: 'Pages',
+        isSelected: false,
+        caretDown: true
+        },
+        {
+        link: 'Contact',
+        isSelected: false,
+        caretDown: false
+        },
+        {
+        link: 'Purchase',
+        isSelected: false,
+        caretDown: false
+        }          
       ],
+      getEduPrimeLinks: [
+        'Request a website',
+        'Browse Themes',
+        'Payment options',
+        'Support System',
+        'Checkout',
+        'Purchase Theme',
+      ],
+      networkingLinks: [
+        'Purchase Theme',
+        'Our Benefits',
+        'Our Team',
+        'Our Services',
+        'Other products',
+        'My account',
+      ],
+      searchCategories: [
+        'economy',
+        'design',
+        'coaching',
+        'business',
+        'medicine',
+        'law',
+        'fitness'
+      ]
 
     };
   },
@@ -33,7 +86,11 @@ export default {
 
   <AppMain/>
   
-  <AppFooter/>
+  <AppFooter 
+  :GetEduPrimeLinks="getEduPrimeLinks"
+  :NetworkingLinks="networkingLinks"
+  :SearchCategories="searchCategories"
+  />
 
 </template>
 
