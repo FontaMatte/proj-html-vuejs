@@ -158,35 +158,44 @@ export default {
 
     <!-- SECTION 5 -->
     <section class="section-5">
-      <div class="container">
+      <div class="my-container">
         <div class="section-top">
-          <img src="" alt="">
-          <h2>
+          <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
+          <h2 class="mb-5">
             Upcoming Events
           </h2>
         </div>
         <div class="section-bottom">
-          <div class="my-card-container">
+          <div class="card-container mb-4">
             <div class="my-card">
-              <h4>Coaching Session</h4>
-              <span>20 May 21:30 PM</span>
-              <p>
+              <h4>Coaching Sessions</h4>
+              <span>
+                <i class="fa-regular fa-calendar-days"></i>
+                20 May 21:30 PM
+              </span>
+              <p class="text-center">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur.
               </p>
               <button>+ Find More</button>
             </div>
             <div class="my-card">
-              <h4>Coaching Session</h4>
-              <span>24 Mar 18:00 PM</span>
-              <p>
+              <h4>Coaching Sessions</h4>
+              <span>
+                <i class="fa-regular fa-calendar-days"></i>
+                24 Mar 18:00 PM
+              </span>
+              <p class="text-center">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur.
               </p>
               <button>+ Find More</button>
             </div>
             <div class="my-card">
-              <h4>Coaching Session</h4>
-              <span>12 Feb 13:30 PM</span>
-              <p>
+              <h4>Coaching Sessions</h4>
+              <span>
+                <i class="fa-regular fa-calendar-days"></i>
+                12 Feb 13:30 PM
+              </span>
+              <p class="text-center">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur.
               </p>
               <button>+ Find More</button>
@@ -199,61 +208,111 @@ export default {
 
     <!-- SECTION 6 -->
   <section class="section-6">
-    <div class="container">
-      <h2>
+    <div class="my-container">
+      <h2 class="mb-5">
         Latest Courses
       </h2>
-      <div class="my-card-container">
+      <div class="card-container">
         <!-- CARD -->
+
         <div class="my-card">
-          <div class="my-card-img">
-            <img src="" alt="">
+          <div class="card-img">
+            <img src="../assets/img/Decisions-icon.png" alt="">
           </div>
-          <div class="my-card-text">
-            <h5>
+          <div class="card-text">
+            <h6>
               Make Better Decision
-            </h5>
-            <span>Teacher:<span> James Collins</span></span>
-            <span>Price:<span>$21.00</span></span>
+            </h6>
+            <span>
+              <i class="fa-regular fa-user"></i>
+              Teacher:
+              <span class="teacher">
+                 James Collins
+              </span>
+            </span>
+            <div>
+              <span><i class="fa-regular fa-money-bill-1 me-1"></i>Price:</span>
+              <span class="price">
+                $21.00
+              </span>
+            </div>
           </div>
-          <button>View Course</button>
+          <button><i class="fa-solid fa-eye me-1"></i>View Course</button>
+        </div>
+
+        <div class="my-card">
+          <div class="card-img">
+            <img src="../assets/img/Speaker-icon.png" alt="">
+          </div>
+          <div class="card-text">
+            <h6>
+              How to be a speaker
+            </h6>
+            <span>
+              <i class="fa-regular fa-user"></i>
+              Teacher:
+              <span class="teacher"> 
+                James Collins
+              </span>
+            </span>
+            <div>
+              <span><i class="fa-regular fa-money-bill-1 me-1"></i>Price:</span>
+              <span class="price">
+                Free
+              </span>
+            </div>
+          </div>
+          <button><i class="fa-solid fa-eye me-1"></i>View Course</button>
+
         </div>
         <div class="my-card">
-          <div class="my-card-img">
-            <img src="" alt="">
+          <div class="card-img">
+            <img src="../assets/img/Network-icon.png" alt="">
           </div>
-          <div class="my-card-text">
-            <h5>
-              How to be a speaker
-            </h5>
-            <span>Teacher:<span> James Collins</span></span>
-            <span>Price:<span>Free</span></span>
-          </div>
-          <button>View Course</button>
-        </div><div class="my-card">
-          <div class="my-card-img">
-            <img src="" alt="">
-          </div>
-          <div class="my-card-text">
-            <h5>
+          <div class="card-text">
+            <h6>
               Network introduction
-            </h5>
-            <span>Teacher:<span> James Collins</span></span>
-            <span>Price:<span>Free</span></span>
+            </h6>
+            <span>
+              <i class="fa-regular fa-user"></i>
+              Teacher:
+              <span class="teacher"> 
+                James Collins
+              </span>
+            </span>
+            <div>
+              <span><i class="fa-regular fa-money-bill-1 me-1"></i>Price:</span>
+              <span class="price">
+                Free
+              </span>
+            </div>
           </div>
-          <button>View Course</button>
-        </div><div class="my-card">
-          <div class="my-card-img">
-            <img src="" alt="">
+          <button><i class="fa-solid fa-eye me-1"></i>View Course</button>
+        </div>
+
+        <div class="my-card">
+          <div class="card-img">
+            <img src="../assets/img/Brand-icon.png" alt="">
           </div>
-          <div class="my-card-text">
-            <h5>
+          <div class="card-text">
+            <h6>
               Brand Managment
-            </h5>
-            <span>Teacher:<span> James Collins</span></span>
-            <span>Price:<span>Free</span></span>
+            </h6>
+            <span>
+              <i class="fa-regular fa-user"></i>
+              Teacher:
+              <span class="teacher"> 
+                James Collins
+              </span>
+            </span>
+            <div>
+              <span><i class="fa-regular fa-money-bill-1 me-1"></i>Price:</span>
+              <span class="price">
+                Free
+              </span>
+            </div>
           </div>
-          <button>View Course</button>
+          <button><i class="fa-solid fa-eye me-1"></i>View Course</button>
         </div>
       </div>
     </div>
@@ -261,21 +320,21 @@ export default {
   
   <!-- SECTION 7 -->
   <section class="section-7">
-    <div class="container">
+    <div class="my-container">
       <div class="text-section">
-        <img src="" alt="">
-        <h2>
+        <img src="../assets/img/Exam-icon.png" alt="">
+        <h2 class="mb-5">
           The most efficient examination method
         </h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Quam aperiam provident cum omnis illo, distinctio natus dolorum autem eligendi eveniet.
+        <p class="mb-4">
+          EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our 
+          student. Every teacher from our university has an influence on how students are evaluated at his/her subject.
+
         </p>
         <button>Discover the Method</button>
       </div>
       <div class="img-section">
-        <img src="" alt="">
-        IMG
+        <img class="img-fluid" src="../assets/img/Exam-Illustration.png" alt="">
       </div>
     </div>
   </section>

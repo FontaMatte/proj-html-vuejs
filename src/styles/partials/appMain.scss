@@ -172,10 +172,16 @@ main {
     }
     // SECTION 5
     .section-5 {
-        background-color: chocolate;
+        background-color:#E56768;
+        color: white;
 
         .section-top {
             text-align: center;
+
+            img {
+                width: 50px;
+                margin-bottom: 15px;
+            }
         }
         .section-bottom {
             display: flex;
@@ -186,14 +192,27 @@ main {
                 display: flex;
                 justify-content: space-between;
 
-                .card {
+                .my-card {
                     width: calc(100% / 3 - 20px);
+                    background-color: white;
+                    color: black;
+                    padding: 30px 20px;
+                    border-radius: 15px;
+
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
                     position: relative;
 
+                    span,p {
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                    }
+
                     button {
+                        background-color: #E56768;
+                        font-size: 12px;
                         position: absolute;
                         top: 90%;
                     }
@@ -201,45 +220,79 @@ main {
             }
             .view-all-button {
                 margin: 40px 0;
+                font-size: 14px;
             }
         }
     }
     // SECTION 6
     .section-6 {
-        background-color: antiquewhite;
-        padding: 30px 0;
+        background-image: url(../assets/svg/svg-1.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 140px 0;
 
         .card-container {
             display: flex;
             justify-content: space-between;
 
-            .card {
+            .my-card {
                 width: calc(100% / 4 - 20px);
+                border: 1px solid #ECECEE;
+                text-align: center;
                 padding: 30px;
+
                 position: relative;
 
+                img {
+                    width: 60px;
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+
+                
+
                 button {
+                    width: 150px;
+                    font-size: 12px;
+                    background-color: #E56768;
+                    padding: 8px 10px;
+
                     position: absolute;
-                    top: 90%;
+                    top: 100%;
                     left: 50%;
-                    transform: translateX(-50%);
+                    transform: translate(-50% , -50%)
                 }
             }
         }
     }
     // SECTION 7
     .section-7 {
-        background-color: cadetblue;
-        padding: 30px 0;
 
-        .container {
+        .my-container {
             display: flex;
 
             .text-section {
                 width: 50%;
+                padding: 30px;
+
+                img {
+                    width: 50px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 12px;
+                }
             }
             .img-section {
                 width: 50%;
+                padding: 50px;
+            }
+            button {
+                background-color: #E56768;
+                font-size: 12px;
             }
         }
     }
