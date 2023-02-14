@@ -19,25 +19,27 @@ export default {
 
     <!-- SECTION 1 -->
     <section class="section-1">
-      <div class="call-to-action-link"></div>
-      <div class="background-image">
-        <img src="" alt="">
+      <div class="call-to-action-link text-center">
+        <span>
+          <a href="#" class="text-decoration-none text-white">
+            Purchase Eduprime on Envato Market
+          </a>
+        </span>
       </div>
-      <div class="container">
+      <div class="my-container">
         <div class="section-text">
-          <img src="" alt="">
-          <h2>
+          <img src="../assets/img/Books-icon.png" alt="BooksIcon">
+          <h2 class="mb-4">
             Thousands of courses for any type of student
           </h2>
-          <p>
+          <p class="mb-5 fs-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Nostrum id, nulla veniam laudantium enim velit.
           </p>
           <button>Browse through courses</button>
         </div>
-        <div class="section-image">
-          <img src="" alt="">
-          IMAGE
+        <div class="section-img p-5">
+          <img class="img-fluid" src="../assets/img/Graduation-Illustration.png" alt="">
         </div>
       </div>
     </section>
