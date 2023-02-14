@@ -2,3 +2,29 @@
 @use "./partials/appMain.scss" as *;
 @use "./partials/appFooter.scss" as *;
 @import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+    font-family: 'Fredoka One', cursive;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: white;
+    background-color: #E9D758;
+}
+
+// COLORS
+// BACKGROUND COLORS
+$yellow-base:#E9D758;
+$red-base:#E56768;
+$red-light:#DA5F60E6;
+
+// TEXT COLORS
+$green-text:#79B530;
+$red-text:#E56768;
+
+// FILL COLORS
+$green-fill:#82B541;
+$green-fill-light:#69DE89;

@@ -1,34 +1,35 @@
 <script>
+// import { useAttrs } from 'vue';
 
 export default {
 
   name: 'AppHeader',
   data() {
     return {
-
+      isSelected: true,
     };
   },
-  components: {
-
+  props: {
+    navBarLinks: Array
   }
 }
 </script>
 
 <template>
   <header>
+    <div class="layer"></div>
     <!-- HEADER TOP -->
     <div class="header-top">
       <div class="main-logo">
-        LOGO + TITLE
+        <img src="../assets/img/theme_eduprime_logo.png" alt="MainLogo">
       </div>
       <div class="nav-bar">
         <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Home</li>
+          <li v-for="link in navBarLinks">
+            <a href="#" :class="{ selected: isSelected }">
+              {{ link }}
+            </a>
+          </li>
         </ul>
         <button>VIEW COURSES</button>
       </div>
@@ -37,21 +38,26 @@ export default {
     <!-- HEADER BOTTOM -->
     <div class="header-bottom">
       <div class="aside-menu">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        ASIDE MENU
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#"><i class="fa-solid fa-book-open"></i></a> 
+        <a href="#"><i class="fa-solid fa-life-ring"></i></a> 
       </div>
-      <div class="container">
+      <div class="my-container">
         <div class="header-bottom-content">
           <h1>
             Key to your succes
           </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatem sequi nobis quod quis nostrum dicta.
+          <p class="mb-5">EduPrime is the most bersatile WordPress Theme for educational purposes,
+             showcasing universities, courses, secondary schools etc.
           </p>
-          <button>Search courses</button>
-          <button>Apply for university</button>
+          <button class="me-4">
+            <i class="fa-solid fa-magnifying-glass me-2"></i>
+            Search courses
+          </button>
+          <button>
+            <i class="fa-solid fa-user-graduate me-2"></i>
+            Apply for university
+          </button>
         </div>
       </div>
     </div>

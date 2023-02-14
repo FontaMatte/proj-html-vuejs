@@ -7,6 +7,15 @@ export default {
   name: 'App',
   data() {
     return {
+      navBarLinks: [
+          'Home',
+          'Courses',
+          'About Us',
+          'News',
+          'Pages',
+          'Contact',
+          'Purchase'
+      ],
 
     };
   },
@@ -20,7 +29,7 @@ export default {
 
 <template>
 
-  <AppHeader/>
+  <AppHeader :navBarLinks="navBarLinks"/>
 
   <AppMain/>
   
