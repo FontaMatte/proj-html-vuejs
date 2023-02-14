@@ -46,22 +46,41 @@ export default {
 
     <!-- SECTION 2 -->
     <section class="section-2">
-      <div class="container">
+      <div class="my-container">
         <div class="section-top">
-          <h2>
+          <h2 class="mb-3">
             Faculties aviable at EduPrime
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, culpa.</p>
+          <div class="mini-container">
+            <p class="mb-5">
+              A single university with a load of courses, tailored to satisfy any studen's needs.
+            </p>
+          </div>
         </div>
       </div>
       <div class="section-bottom">
-        <div class="container">
+        <div class="my-container">
           <div class="card-container">
-            <div class="card">CARD 1</div>
-            <div class="card">CARD 2</div>
-            <div class="card">CARD 3</div>
-            <div class="card">CARD 4</div>
-            <div class="card">CARD 5</div>
+            <div class="my-card">
+              <img src="../assets/img/Gavel-v2.png" alt="">
+              <span>Law Faculty</span>
+            </div>
+            <div class="my-card">
+              <img src="../assets/img/Coins-tabs-v2.png" alt="">
+              <span>Economy</span>
+            </div>
+            <div class="my-card">
+              <img src="../assets/img/Medicine-tabs-v2.png" alt="">
+              <span>Medicine</span>
+            </div>
+            <div class="my-card">
+              <img src="../assets/img/Computer-tabs-v2.png" alt="">
+              <span>Computer Science</span>
+            </div>
+            <div class="my-card">
+              <img src="../assets/img/Palette-tabs-v2.png" alt="">
+              <span>Graphic Design</span>
+            </div>
           </div>    
         </div>
       </div> 
@@ -148,8 +167,8 @@ export default {
           </h2>
         </div>
         <div class="section-bottom">
-          <div class="card-container">
-            <div class="card">
+          <div class="my-card-container">
+            <div class="my-card">
               <h4>Coaching Session</h4>
               <span>20 May 21:30 PM</span>
               <p>
@@ -157,7 +176,7 @@ export default {
               </p>
               <button>+ Find More</button>
             </div>
-            <div class="card">
+            <div class="my-card">
               <h4>Coaching Session</h4>
               <span>24 Mar 18:00 PM</span>
               <p>
@@ -165,7 +184,7 @@ export default {
               </p>
               <button>+ Find More</button>
             </div>
-            <div class="card">
+            <div class="my-card">
               <h4>Coaching Session</h4>
               <span>12 Feb 13:30 PM</span>
               <p>
@@ -185,13 +204,13 @@ export default {
       <h2>
         Latest Courses
       </h2>
-      <div class="card-container">
+      <div class="my-card-container">
         <!-- CARD -->
-        <div class="card">
-          <div class="card-img">
+        <div class="my-card">
+          <div class="my-card-img">
             <img src="" alt="">
           </div>
-          <div class="card-text">
+          <div class="my-card-text">
             <h5>
               Make Better Decision
             </h5>
@@ -200,11 +219,11 @@ export default {
           </div>
           <button>View Course</button>
         </div>
-        <div class="card">
-          <div class="card-img">
+        <div class="my-card">
+          <div class="my-card-img">
             <img src="" alt="">
           </div>
-          <div class="card-text">
+          <div class="my-card-text">
             <h5>
               How to be a speaker
             </h5>
@@ -212,11 +231,11 @@ export default {
             <span>Price:<span>Free</span></span>
           </div>
           <button>View Course</button>
-        </div><div class="card">
-          <div class="card-img">
+        </div><div class="my-card">
+          <div class="my-card-img">
             <img src="" alt="">
           </div>
-          <div class="card-text">
+          <div class="my-card-text">
             <h5>
               Network introduction
             </h5>
@@ -224,11 +243,11 @@ export default {
             <span>Price:<span>Free</span></span>
           </div>
           <button>View Course</button>
-        </div><div class="card">
-          <div class="card-img">
+        </div><div class="my-card">
+          <div class="my-card-img">
             <img src="" alt="">
           </div>
-          <div class="card-text">
+          <div class="my-card-text">
             <h5>
               Brand Managment
             </h5>

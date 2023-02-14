@@ -17,8 +17,6 @@ main {
             left: 15px;
         }
         .my-container {
-            max-width: 1000px;
-            margin: 0 auto;
             display: flex;
             justify-content: space-between;
 
@@ -37,24 +35,42 @@ main {
     }
     // SECTION 2
     .section-2 {
-        background-color: yellowgreen;
-        padding: 30px 0;
 
         .section-top {
             text-align: center;
+
+            .mini-container {
+                max-width: 300px;
+                margin: auto;
+
+                p {
+                    font-size: 12px;
+                }
+            }
         }
         .section-bottom {
+            border: 1px solid #ECECEE;
 
             .card-container {
                 display: flex;
                 
-                .card {
+                
+                .my-card {
                     width: calc(100% / 5);
-                    height: 150px;
+                    color:#E56768;
+                    padding: 20px;
+                    border-left: 1px solid #ECECEE;
+                    border-right: 1px solid #ECECEE;
 
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
+
+                    img {
+                        width: 80px;
+                        margin-bottom: 10px;
+                    }
                 }
             }
         }

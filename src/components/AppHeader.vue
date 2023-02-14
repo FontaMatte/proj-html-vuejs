@@ -42,7 +42,7 @@ export default {
         <a href="#"><i class="fa-solid fa-book-open"></i></a> 
         <a href="#"><i class="fa-solid fa-life-ring"></i></a> 
       </div>
-      <div class="my-container">
+      <div class="my-container-small">
         <div class="header-bottom-content">
           <h1>
             Key to your succes

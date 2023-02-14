@@ -7,6 +7,16 @@
     font-family: 'Fredoka One', cursive;
 }
 
+.my-container-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.my-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 button {
     border: none;
     border-radius: 30px;
