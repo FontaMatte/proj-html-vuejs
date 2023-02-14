@@ -396,7 +396,9 @@ export default {
         <img src="../assets/img/partner-7.png" alt="logo8">
       </div>
     </div>
+    <div class="background"></div>
   </section>
+
   </main>
 </template>
 
