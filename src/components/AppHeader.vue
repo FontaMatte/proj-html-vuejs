@@ -39,8 +39,10 @@ export default {
 
 <template>
   <header>
+    <!-- BACKGROUND -->
     <div :class="themeSliders[currentTheme]">
       <div class="layer"></div>
+
       <!-- HEADER TOP -->
       <div class="header-top">
         <div class="main-logo">
@@ -55,7 +57,9 @@ export default {
               </a>
             </li>
           </ul>
-          <button>VIEW COURSES</button>
+          <button>
+            VIEW COURSES
+          </button>
         </div>
       </div>
 
