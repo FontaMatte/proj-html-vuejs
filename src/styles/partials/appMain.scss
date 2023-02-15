@@ -33,6 +33,9 @@ main {
                 p,button {
                     font-size: 12px;
                 }
+                button:hover {
+                    background-color: #db2a2c;
+                }
             }
             .section-img {
                 width: 50%;
@@ -76,6 +79,9 @@ main {
                     img {
                         width: 80px;
                         margin-bottom: 10px;
+                    }
+                    &:hover {
+
                     }
                 }
             }
@@ -221,12 +227,18 @@ main {
                         font-size: 12px;
                         position: absolute;
                         top: 90%;
+                        box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.25);
                     }
                 }
             }
             .view-all-button {
                 margin: 40px 0;
                 font-size: 14px;
+
+                &:hover {
+                    background-color: #E56768;
+                    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.25);
+                }
             }
         }
     }
@@ -300,6 +312,10 @@ main {
             button {
                 background-color: #E56768;
                 font-size: 12px;
+
+                &.fees:hover {
+                    background-color: #E9D758;
+                }
             }
         }
     }
@@ -340,6 +356,10 @@ main {
                     height: 50px;
                     object-fit: contain;
                     filter: invert(70%);
+
+                    &:hover {
+                        filter: invert(0);
+                    }
                 }
             }
         }

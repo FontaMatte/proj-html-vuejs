@@ -353,7 +353,7 @@ export default {
           EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our 
           student. Every teacher from our university has an influence on how students are evaluated at his/her subject.
         </p>
-        <button>List of fees</button>
+        <button class="fees">List of fees</button>
       </div>    
     </div>
   </section>
