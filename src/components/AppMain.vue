@@ -72,18 +72,22 @@ export default {
             <div class="my-card">
               <img src="../assets/img/Coins-tabs-v2.png" alt="">
               <span>Economy</span>
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
             </div>
             <div class="my-card">
               <img src="../assets/img/Medicine-tabs-v2.png" alt="">
               <span>Medicine</span>
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
             </div>
             <div class="my-card">
               <img src="../assets/img/Computer-tabs-v2.png" alt="">
               <span>Computer Science</span>
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
             </div>
             <div class="my-card">
               <img src="../assets/img/Palette-tabs-v2.png" alt="">
               <span>Graphic Design</span>
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
             </div>
           </div>    
         </div>

@@ -67,10 +67,10 @@ main {
         }
         .section-bottom {
             border: 1px solid #ECECEE;
+            box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.1);
 
             .card-container {
                 display: flex;
-                
                 
                 .my-card {
                     width: calc(100% / 5);
@@ -85,15 +85,27 @@ main {
                     align-items: center;
                     position: relative;
 
+                    &:hover {
+                        background-color: #E56768;
+                        color: white;
+                        
+                        & img {
+                            filter: brightness(0) invert(1);
+                        }
+                        & i {
+                            color: #E56768;
+                        }
+                    }
                     img {
                         width: 80px;
                         margin-bottom: 10px;
+                        
                     }
                     i {
                         position: absolute;
                         top: 100%;
-                        left: 50%;
-                        transform: translate(-50% 50%);
+                        left: 45%;
+                        transform: translate(-50% -50%);
                         color:transparent;
                     }
                 }
@@ -275,6 +287,8 @@ main {
                 border: 1px solid #ECECEE;
                 text-align: center;
                 padding: 30px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.1);
 
                 position: relative;
 
