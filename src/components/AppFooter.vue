@@ -22,10 +22,12 @@ export default {
     <div class="button-container">
       <button class="call-to-action-button mb-2">
         <img src="../assets/svg/svg-3.svg" alt="">
-        Purchase Theme</button>
+        Purchase Theme
+      </button>
       <button class="call-to-action-button">
         <img src="../assets/svg/svg-2.svg" alt="">
-        Related Themes</button>
+        Related Themes
+      </button>
     </div>
 
     <div class="my-container">

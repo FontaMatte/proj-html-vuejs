@@ -124,35 +124,35 @@ export default {
 
         <div class="section-bottom">
             <div class="text-1">
-              <h4>
+              <h6>
                 Orentation
-              </h4>
+              </h6>
               <p>
                 First day of the university year, all students gather for the opening
                 cerimony and then network with others.
               </p>
             </div>
             <div class="text-2">
-              <h4>
+              <h6>
                 Demo Classe
-              </h4>
+              </h6>
               <p>
                 In the first week, students try to accomodate with the teaching style and choose 
                 their optional courses.
               </p>
             </div>
             <div class="text-3">
-              <h4>
+              <h6>
                 Evaluation
-              </h4>
+              </h6>
               <p>
                 At the end of a semester, student take a genmeral evaluation test for every subject they're learning.
               </p>
             </div>
             <div class="text-4">
-              <h4>
+              <h6>
                 Graduation Day
-              </h4>
+              </h6>
               <p>
                 On the day of graduation, all students gather for the ceremony and then network and party among others.
               </p>

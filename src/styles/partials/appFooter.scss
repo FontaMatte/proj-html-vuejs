@@ -1,5 +1,5 @@
 footer {
-    background-color: #E56768;
+    background-color:var(--main-red);
     color: white;
     padding: 60px 0;
     position: relative;
@@ -34,17 +34,15 @@ footer {
             img {
                 width: 200px;
             }
-            p {
-                font-size: 12px;
-            }
+
             a {
                 i {
-                    border: 1px solid #E9D758;
+                    border: 1px solid var(--main-yellow);
                     padding: 10px;
                     border-radius: 20px;
                 }
                 &:hover i {
-                    color: #E9D758;
+                    color: var(--main-yellow);
                 }
             }
         }
@@ -52,9 +50,7 @@ footer {
         .get-edu-prime {
             width: 15%;
             text-align: left;
-            padding: 15px;
-
-        
+            padding: 15px;       
         }
 
         .networking {
@@ -93,7 +89,7 @@ footer {
                     text-transform: uppercase;
                     
                     &:hover {
-                        background-color: #E9D758;
+                        background-color: var(--main-yellow);
 
                         a {
                             color: white;
@@ -102,7 +98,7 @@ footer {
                 }
             }
             span {
-                color: #E9D758;
+                color: var(--main-yellow);
                 font-size: 10px;
             }
         }
@@ -127,7 +123,7 @@ footer {
             padding: 5px 0;
 
             &:hover a {
-                color: #E9D758;
+                color: var(--main-yellow);
             }
         }
     }   

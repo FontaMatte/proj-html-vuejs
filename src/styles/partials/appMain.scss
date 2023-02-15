@@ -60,9 +60,6 @@ main {
                 max-width: 300px;
                 margin: auto;
 
-                p {
-                    font-size: 12px;
-                }
             }
         }
         .section-bottom {
@@ -74,7 +71,7 @@ main {
                 
                 .my-card {
                     width: calc(100% / 5);
-                    color:#E56768;
+                    color:var(--main-red);
                     padding: 20px;
                     border-left: 1px solid #ECECEE;
                     border-right: 1px solid #ECECEE;
@@ -86,14 +83,14 @@ main {
                     position: relative;
 
                     &:hover {
-                        background-color: #E56768;
+                        background-color:var(--main-red);
                         color: white;
                         
                         & img {
                             filter: brightness(0) invert(1);
                         }
                         & i {
-                            color: #E56768;
+                            color: var(--main-red);
                         }
                     }
                     img {
@@ -136,19 +133,15 @@ main {
                 justify-content: space-around;
                 align-items: flex-start;
 
-                p {
-                    font-size: 12px;
-                }
                 button {
-                    background-color: #E56768;
-                    font-size: 12px;
+                    background-color: var(--main-red);
                 }
             }
         }
     }
     // SECTION 4
     .section-4 {
-        background-color: #E56768;
+        background-color: var(--main-red);
 
         padding: 30px 0;
         color: white;
@@ -162,8 +155,7 @@ main {
                 margin-bottom: 15px;
             }
             h2 {
-                background-color: #db2a2c;
-
+                background-color: var(--secondary-red);
                 display: inline;
             }
         }
@@ -178,30 +170,21 @@ main {
                 div {
                     width: 320px;
                     text-align: center;
-                }
-                h4 {
-                    font-size: 14px;
-                }
-                p {
-                    font-size: 12px;
+                    position: absolute;
                 }
 
                 .text-1 {
-                    position: absolute;
                     top: 75%;
                 }
                 .text-2 {
-                    position: absolute;
                     top: 10%;
                     left: 23%;
                 }
                 .text-3 {
-                    position: absolute;
                     top: 75%;
                     left: 46%;
                 }
                 .text-4 {
-                    position: absolute;
                     top: 10%;
                     left: 68%;
                 }
@@ -209,10 +192,10 @@ main {
     }
     // SECTION 5
     .section-5 {
-        background-color:#E56768;
-        border: 1px solid #E56768;
+        background-color:var(--main-red);
+        border: 1px solid var(--main-red);
         outline-width: thin;
-        outline-color: #E56768;
+        outline-color: var(--main-red);
         outline-style: solid;
         color: white;
 
@@ -252,8 +235,7 @@ main {
                     }
 
                     button {
-                        background-color: #E56768;
-                        font-size: 12px;
+                        background-color: var(--main-red);
                         position: absolute;
                         top: 90%;
                         box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.25);
@@ -265,7 +247,7 @@ main {
                 font-size: 14px;
 
                 &:hover {
-                    background-color: #E56768;
+                    background-color: var(--main-red);
                     box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.25);
                 }
             }
@@ -305,8 +287,7 @@ main {
 
                 button {
                     width: 150px;
-                    font-size: 12px;
-                    background-color: #E56768;
+                    background-color: var(--main-red);
                     padding: 8px 10px;
 
                     position: absolute;
@@ -332,27 +313,24 @@ main {
                     width: 50px;
                     margin-bottom: 10px;
                 }
-                p {
-                    font-size: 12px;
-                }
             }
             .img-section {
                 width: 50%;
                 padding: 50px;
             }
             button {
-                background-color: #E56768;
+                background-color: var(--main-red);
                 font-size: 12px;
 
                 &.fees:hover {
-                    background-color: #E9D758;
+                    background-color: var(--main-yellow);
                 }
             }
         }
     }
     // SECTION 9
     .section-9 {
-        background-color: #E56768;
+        background-color: var(--main-red);
         color: white;
         padding: 40px 0;
 
@@ -373,9 +351,6 @@ main {
             .my-container-small {
                 max-width: 600px;
 
-                p {
-                    font-size: 12px;
-                }
             }
 
             .img-container {
