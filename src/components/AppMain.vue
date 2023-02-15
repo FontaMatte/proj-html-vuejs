@@ -34,8 +34,10 @@ export default {
             Thousands of courses for any type of student
           </h2>
           <p class="mb-5 fs-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nostrum id, nulla veniam laudantium enim velit.
+            At EduPrime, it doesn't matter what domain you wish to pursue a career in.
+            Here you can find a course that satisfies you needs within a click away
+            and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world,
+            thanks to the number of courses it provides.
           </p>
           <button>Browse through courses</button>
         </div>

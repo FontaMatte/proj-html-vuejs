@@ -1,5 +1,4 @@
 <script>
-// import { useAttrs } from 'vue';
 
 export default {
 
@@ -7,21 +6,40 @@ export default {
   data() {
     return {
       themeSliders:[
-        'theme_slider1_bg-1.jpg',
-        'theme_slider2_bg-1.jpg',
-        'theme_slider3_bg-1.jpg'    
-      ]
+        'theme-slider1',
+        'theme-slider2',
+        'theme-slider3'    
+      ],
+      currentTheme: 0
     };
   },
   props: {
     navBarLinks: Object
+  },
+  methods: {
+
+    nextTheme() {
+
+      if (this.currentTheme == this.themeSliders.length - 1) {
+        this.currentTheme = 0;
+      }
+      else {
+        this.currentTheme++;
+      }
+
+    },
+  },
+  mounted() {
+
+    setInterval(this.nextTheme,3000);
+
   }
 }
 </script>
 
 <template>
   <header>
-    <div class="theme-slider">
+    <div :class="themeSliders[currentTheme]">
       <div class="layer"></div>
       <!-- HEADER TOP -->
       <div class="header-top">

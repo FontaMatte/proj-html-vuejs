@@ -198,6 +198,10 @@ main {
     // SECTION 5
     .section-5 {
         background-color:#E56768;
+        border: 1px solid #E56768;
+        outline-width: thin;
+        outline-color: #E56768;
+        outline-style: solid;
         color: white;
 
         .section-top {
