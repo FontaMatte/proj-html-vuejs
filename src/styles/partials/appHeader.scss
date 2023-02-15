@@ -18,7 +18,6 @@ header {
             height: 100%;
         }
         
-
         .header-top {
             display: flex;
             justify-content: space-between;
@@ -45,15 +44,11 @@ header {
                         padding: 10px 15px;
                         font-size: 14px;
 
-                        a {
-                            text-decoration: none;
-                            color: white;
-                        }
                         .selected {
-                            color:  #E9D758;
+                            color: var(--main-yellow);
                         }
                         &:hover a {
-                            color: #E9D758;
+                            color: var(--main-yellow);
                         }
                     }
                 }
@@ -103,7 +98,7 @@ header {
 
                     &:last-child {
                         background-color: white;
-                        color: #E56768;
+                        color: var(--main-red);
                     }
                 }
                 

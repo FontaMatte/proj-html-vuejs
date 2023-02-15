@@ -7,24 +7,32 @@
     font-family: 'Fredoka One', cursive;
 }
 
+// COLORS VARIABLES
+:root {
+    --main-yellow: #E9D758;
+    --main-red: #E56768;
+    --secondary-red: #db2a2c;
+}
+
 .my-container-small {
     max-width: 800px;
     margin: 0 auto;
 }
 
 .my-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+// BASIC BUTTON
 button {
     border: none;
     border-radius: 30px;
     padding: 15px 30px;
     color: white;
-    background-color: #E9D758;
+    background-color: var(--main-yellow);
 }
-
+// BASIC INPUT
 .email-input {
     position: relative;
 

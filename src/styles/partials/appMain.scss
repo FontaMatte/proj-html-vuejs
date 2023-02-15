@@ -42,7 +42,7 @@ main {
                     font-size: 12px;
                 }
                 button:hover {
-                    background-color: #db2a2c;
+                    background-color: var(--secondary-red);
                 }
             }
             .section-img {
@@ -189,12 +189,11 @@ main {
                 .text-1 {
                     position: absolute;
                     top: 75%;
-                    left: 8%;
                 }
                 .text-2 {
                     position: absolute;
                     top: 10%;
-                    left: 27%;
+                    left: 23%;
                 }
                 .text-3 {
                     position: absolute;
@@ -204,7 +203,7 @@ main {
                 .text-4 {
                     position: absolute;
                     top: 10%;
-                    left: 65%;
+                    left: 68%;
                 }
         }
     }

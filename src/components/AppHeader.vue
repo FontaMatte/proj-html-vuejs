@@ -75,7 +75,8 @@ export default {
             <h1>
               Key to your succes
             </h1>
-            <p class="mb-5">EduPrime is the most bersatile WordPress Theme for educational purposes,
+            <p class="mb-5">
+              EduPrime is the most bersatile WordPress Theme for educational purposes,
               showcasing universities, courses, secondary schools etc.
             </p>
             <button class="me-4">
