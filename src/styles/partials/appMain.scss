@@ -17,6 +17,14 @@ main {
             position: absolute;
             top: 0;
             left: 15px;
+
+            i {
+                width: 10px;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
         .my-container {
             display: flex;
@@ -75,13 +83,18 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    position: relative;
 
                     img {
                         width: 80px;
                         margin-bottom: 10px;
                     }
-                    &:hover {
-
+                    i {
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        transform: translate(-50% 50%);
+                        color:transparent;
                     }
                 }
             }

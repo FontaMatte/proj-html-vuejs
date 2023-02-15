@@ -20,6 +20,7 @@ export default {
     <!-- SECTION 1 -->
     <section class="section-1">
       <div class="call-to-action-link text-center">
+        <i class="fa-solid fa-caret-down fa-2xl"></i>
         <span>
           <a href="#" class="text-decoration-none text-white">
             Purchase Eduprime on Envato Market
@@ -64,6 +65,7 @@ export default {
             <div class="my-card">
               <img src="../assets/img/Gavel-v2.png" alt="">
               <span>Law Faculty</span>
+              <i class="fa-solid fa-caret-down fa-2xl"></i>
             </div>
             <div class="my-card">
               <img src="../assets/img/Coins-tabs-v2.png" alt="">
